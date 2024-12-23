@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Product Listing Styles */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-item span {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-item button:hover {
+    background-color: #218838;
+}
+
+/* Cart Section */
+#cart {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#cart h2 {
+    margin-bottom: 15px;
+}
+
+#cart button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#cart button:hover {
+    background-color: #0056b3;
+}
+
+/* Customer Service Section */
+#customer-service {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#customer-service h2 {
+    margin-bottom: 15px;
+}
+
+#customer-service ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#customer-service ul li {
+    margin-bottom: 10px;
+}
+
+#customer-service ul li a {
+    font-size: 16px;
+    color: #007bff;
+}
+
+#customer-service ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Order Tracking Section */
+#track-order {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#track-order h2 {
+    margin-bottom: 20px;
+}
+
+#track-order form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#track-order form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#track-order form button:hover {
+    background-color: #0056b3;
+}
+
+/* Admin Panel Section */
+#admin-panel {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#admin-panel button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+#admin-panel button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .footer-content ul li {
+    margin: 0 15px;
+}
+
+footer .footer-content ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+footer .footer-content ul li a:hover {
+    text-decoration: underline;
+}
